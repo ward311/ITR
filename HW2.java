@@ -182,7 +182,7 @@ public class HW2 {
         }
       }
     } 
-    
+
     return courses;
   }
   
