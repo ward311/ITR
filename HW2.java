@@ -181,9 +181,7 @@ public class HW2 {
           }else continue; //no available spot, keep finding the next course
         }
       }
-      
-      
-    }
+    } 
     
     return courses;
   }
