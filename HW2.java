@@ -159,7 +159,7 @@ public class HW2 {
   
     
      for(int j = 0;j<sortList.size();j++){// loop through the sorted student list
-      if(sortList.get(j).preference.length>0){//if student has preference
+      if(sortList.get(j).preference.length>0){//inner loop : if student has preference
         in: for(int i = sortList.get(j).round;i<sortList.get(j).preference.length;i++){
           //then we go through each student's preference array to get their choice
           if(courses[sortList.get(j).preference[i]-1].available<courses[sortList.get(j).preference[i]-1].candidate.length){
@@ -173,6 +173,7 @@ public class HW2 {
           }
 
         }
+        
       }else{//students with no preference
         for(int k = 0;k<courses.length;k++){//then we loop through the existing courses to check if there are still available spots
           if(courses[k].available < courses[k].candidate.length){//if we find spots for students with no preference
@@ -181,6 +182,7 @@ public class HW2 {
           }else continue; //no available spot, keep finding the next course
         }
       }
+      
     } 
 
     return courses;
