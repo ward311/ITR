@@ -115,7 +115,7 @@ public class HW2 {
   // Abstract test case 3. Prepare for hidden test case.
   // It is normal that the function is no code.
   private static void test3() {
-    Course[] courses = new Course[4];
+    /*Course[] courses = new Course[4];
     courses[0] = new Course(1, "ITR", 3);
     courses[1] = new Course(2, "MIS", 3);
     courses[2] = new Course(3, "DataBase", 3);
@@ -128,7 +128,7 @@ public class HW2 {
     students[1] =  new Student(4, 122, new int[]{1, 2, 3});
     students[2] =  new Student(2, 1, new int[]{1, 2, 3});
     students[3] =  new Student(3, 23, new int[]{1, 2, 3});
-    students[4] =  new Student(1, 6, new int[]{1, 2});
+    students[4] =  new Student(2, 6, new int[]{1, 2});
     students[5] =  new Student(3, 21, new int[]{2, 1, 3});
     students[6] =  new Student(3, 31, new int[]{1, 2, 3});
     students[7] =  new Student(2, 12, new int[]{1, 2, 3});
@@ -144,7 +144,7 @@ public class HW2 {
     long estimatedTime = System.nanoTime() - startTime;
     print_course(result);
     print_first_priority(result);
-    System.out.println("Performance(time): "+estimatedTime);
+    System.out.println("Performance(time): "+estimatedTime);*/
   }
   
   // TODO: write your code in this function
