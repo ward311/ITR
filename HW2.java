@@ -125,7 +125,7 @@ public class HW2 {
     
     Student[] students = new Student[12];
     students[0] =  new Student(3, 22, new int[]{1, 2, 3});
-    students[1] =  new Student(4, 122, new int[]{1, 2, 3});
+    students[1] =  new Student(4, 122, new int[]{});
     students[2] =  new Student(2, 1, new int[]{1, 2, 3});
     students[3] =  new Student(3, 23, new int[]{1, 2, 3});
     students[4] =  new Student(2, 6, new int[]{1, 2});
@@ -182,7 +182,7 @@ public class HW2 {
                                 //which students with no preferences stay at the end of the arrayList
                                 
     //System.out.println("Priority for Blank after Sorted: "+blankList);
-    System.out.println("Priority after Sorted with Blank: "+sortList);
+    //System.out.println("Priority after Sorted with Blank: "+sortList);
     //System.out.println("No preference chosen: "+blankList);
   
     
